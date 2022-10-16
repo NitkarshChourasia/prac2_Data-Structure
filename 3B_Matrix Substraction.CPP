@@ -31,11 +31,12 @@ mat3[i][j]=mat1[i][j]-mat2[i][j];
 cout<<"The two matrix subtracted successfully...!";
 cout<<"\nThe new matrix will be:\n";
 for(i=0;i<3;i++)
-}
 {
 for(j=0;j<3;j++)
 {
-cout<<mat3[i][j]<<"}
-cout<<"\n";
+cout<<mat3[i][j]<<" ";
+}
+cout << "\n";
 }
 getch();
+}
