@@ -50,7 +50,7 @@ int ch;
 queue qu;
 while(1)
 {
-cout<<"\n 1.insert 2.delet 3.display 4.exit\n enter ur chioce :";
+cout<<"\n 1.insert 2.delet 3.display 4.exit\n enter your chioce :";
 cin>>ch;
 switch(ch)
 {
