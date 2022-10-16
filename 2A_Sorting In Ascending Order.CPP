@@ -29,7 +29,7 @@ a[j+1]=temp;
 cout<<"\nData after sorting:";
 for(j=0;j<5;j++)
 {
-cout<<a[j]<<"}
+cout<<a[j]<<" ";
 }
 getch();
-";
+}

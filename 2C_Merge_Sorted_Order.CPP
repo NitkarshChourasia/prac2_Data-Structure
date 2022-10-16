@@ -30,7 +30,8 @@ merge[k]=arr2[i];
 cout<<"The new array after merging is:\n";
 for(i=0;i<size;i++)
 {
-cout<<merge[i]<<"}
+cout<<merge[i]<<" ";
 }
 getch();
-";
+
+}
