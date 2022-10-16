@@ -1,34 +1,34 @@
-#include<iostream.h>
-#include<conio.h>
+#include <conio.h>
+#include <iostream.h>
 void main()
 {
-clrscr();
-int arr[10],i,num,n,c=0,pos;
-cout<<"Enter array size:";
-cin>>n;
-cout<<"Enter array elements:";
-for(i=0;i<n;i++)
-{
-    cin>>arr[i];
-}
-cout<<"Enter the number to be search:";
-cin>>num;
-for(i=0;i<n;i++)
-{
-    if(arr[i]==num)
+    clrscr();
+    int arr[10], i, num, n, c = 0, pos;
+    cout << "Enter array size:";
+    cin >> n;
+    cout << "Enter array elements:";
+    for (i = 0; i < n; i++)
     {
-        c=1;
-        pos=i+1;
-        break;
+        cin >> arr[i];
     }
-}
-if(c==0)
+    cout << "Enter the number to be search:";
+    cin >> num;
+    for (i = 0; i < n; i++)
     {
-        cout<<"Number not found!";
+        if (arr[i] == num)
+        {
+            c = 1;
+            pos = i + 1;
+            break;
+        }
     }
-else
+    if (c == 0)
     {
-        cout<<num<<"\n Found at position "<<pos;
+        cout << "Number not found!";
     }
-getch();
+    else
+    {
+        cout << num << "\n Found at position " << pos;
+    }
+    getch();
 }
