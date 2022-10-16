@@ -11,7 +11,7 @@ for(i=0;i<size;i++)
 {
 cin>>arr[i];
 }
-cout<<"sorting array using insertionn sort. ... \n";
+cout<<"sorting array using insertion sort.\n";
 for(i=1;i<size;i++)
 {
 temp=arr[i];
