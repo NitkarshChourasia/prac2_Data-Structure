@@ -7,7 +7,7 @@ clrscr();
 int num;
 cout<<"enter the number of disks:";
 cin>>num;
-cout<<"the squence of moves involvedin the towers of the hanoi are:\n";
+cout<<"the squence of moves involved in the towers of the hanoi are:\n";
 tower(num,'A','C','B');
 return 0;
 }
