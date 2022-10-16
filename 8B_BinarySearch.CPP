@@ -30,10 +30,6 @@ break;
 else
 {
 last=middle-1;
-40 | P a g
-e
-SYBSC (IT)
- DATA STRUCTURES
 }
 middle=(first+last)/2;
 }
