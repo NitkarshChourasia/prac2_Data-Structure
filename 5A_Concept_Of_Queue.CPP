@@ -69,7 +69,7 @@ void main()
         case 4:
             exit(0);
         default:
-            cout <<”Invalid Input”;
+            cout << "Invalid Input";
             break;
         }
     }
